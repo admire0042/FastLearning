@@ -138,8 +138,8 @@ namespace FastLearning.Controllers
         {
             //write code to update student 
             _student.SaveStudent(stud);
-            //return RedirectToAction("Confirmation",studs);
-            return View();
+            return RedirectToAction("Confirmation");
+           //confirmaio
         }
 
         public IActionResult Confirmation()
